@@ -1,0 +1,9 @@
+<resources>
+    <string name="lastSeen">Last Seen: %1$s</string>
+    <string name="appName">App Name: %1$s</string>
+    <string name="totalTime">Total time Spent: %1$s</string>
+    <string name="garageName">Garage Name: %1$s</string>
+    <string name="garageAddress">Garage Address: %1$s</string>
+    <string name="garageOpen">Garage Open: %1$s</string>
+    <string name="garageCars">Garage Cars: %1$s</string>
+</resources>

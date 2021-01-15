@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_LAY_base"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GenericGarageActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/main_LAY_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_LBL_appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lastSeen"
+                android:textSize="20sp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/main_LBL_lastSeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lastSeen"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/main_LBL_totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="@string/totalTime"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:id="@+id/main_LBL_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="@string/garageName"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/main_LBL_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/garageAddress"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/main_LBL_open"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/garageOpen"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/main_LBL_cars"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/garageCars"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
